@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+border: 1px solid #080808;
+text-align: center;
+padding: 8px;
+}
+
+td:nth-child(1){
+  width: 20%;
+}
+td:nth-child(2){
+  width: 20%;
+}
+td:nth-child(3){
+  width: 20%;
+}
+.header{
+  background-color: rgb(201, 133, 109);
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+.tablerow:hover{
+  background: #b4721b;
+}
+
+caption{
+  color: rgb(42, 51, 51);
+  font-size: 32px;
+  padding: 16px;
+}
+
+fieldset{
+  width: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: brown;
+}
+
+legend{
+  color: rgb(42, 51, 51);
+  font-size: 16px;
+}
+
+label,input,select{
+  font-family: sans-serif;
+}
+
+input{
+  margin: auto;
+}
+
+button{
+  font-family: sans-serif;
+  border-radius: 8px;
+  color: rgb(189, 40, 40);
+}
